@@ -14,13 +14,13 @@ module.exports = {
   //__________________________________________________________________________________________________________________________________________
  // For Enabling Commands Like AUTO_STATUS_VIEW Type true For Disabling Type false  
 //____________________________________________________________________________________________________________________________________________  
-  SESSION_ID: process.env.SESSION_ID || '',
+  SESSION_ID: process.env.SESSION_ID || 'Phoenix~FlurryArmed,
   STICKER_DATA: process.env.STICKER_DATA || '🎯ᴘʜᴏᴇɴɪx-ᴍᴅ;ᴀʙʜɪꜱʜᴇᴋ ꜱᴜʀᴇꜱʜ🍀',
   ALIVE_DATA: process.env.ALIVE_DATA || '👋 ʜᴇʏ &sender, ɪ ᴍ *ᴘʜᴏᴇɴɪx-ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ* ᴀʟɪᴠᴇ ɴᴏᴡ!\n\n📌 ᴛʏᴘᴇ *menu* ᴛᴏ ɢᴇᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ.\n\n*ᴘʟᴀᴛꜰᴏʀᴍ:* &platform\n*ʀᴜɴᴛɪᴍᴇ:* &runtime;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
   AUDIO_DATA: process.env.AUDIO_DATA || 'Phoenix-MD;Abhishek Suresh;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg',
   BOT_INFO: process.env.BOT_INFO || 'ᴘʜᴏᴇɴɪx-ᴍᴅ;ᴀʙʜɪꜱʜᴇᴋ ꜱᴜʀᴇꜱʜ;919074692450;https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg', 
   PREFIX: process.env.PREFIX || '.',
-  MODE: process.env.MODE || 'private',
+  MODE: process.env.MODE || 'public,
   SUDO: process.env.SUDO || '919074692450, 918157993101',
   START_MSG: toBool(process.env.START_MSG || 'true'),
   ERROR_MSG: toBool(process.env.ERROR_MSG || 'true'), 
@@ -35,7 +35,7 @@ module.exports = {
   ELEVENLABS_API_KEY: process.env.ELEVENLABS_API_KEY || '',
   TIMEZONE: process.env.TIMEZONE || "Asia/Kolkata",
   LANG: process.env.LANG || 'EN',
-  AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || 'false'),
+  AUTO_STATUS_VIEW: toBool(process.env.AUTO_STATUS_VIEW || 'true),
   AUTO_STATUS_REPLY: toBool(process.env.AUTO_STATUS_REPLY || 'false'),
   AUTO_STATUS_REPLY_MSG: process.env.AUTO_STATUS_REPLY_MSG || '_*Nice Status Bro 🍀*_',
   AUTO_STATUS_REACT: toBool(process.env.AUTO_STATUS_REACT || 'true'),
